@@ -92,7 +92,7 @@ def start():
         
         # Display the updated score after each round.
         print(f"Score ---> You: {user_score} | Computer: {computer_score}")
-
+        print("-" * 80)
         # Move to the next round.
         i += 1
 
@@ -101,6 +101,7 @@ def start():
     print(f"Your Score: {user_score}")
     print(f"Computer Score: {computer_score}")
 
+    print("-" * 80)
     # Compare scores to declare the overall winner.
     if user_score > computer_score:
         print("You are the winner of this game!")
